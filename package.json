@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-ssl-proxy",
+  "version": "1.0.0",
+  "description": "A Node.js based SSL proxy.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uvwxy/nodejs-ssl-proxy"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "ssl",
+    "proxy",
+    "https"
+  ],
+  "author": "Paul Smith <code@uvwxy.de>",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "https": "^1.0.0"
+  }
+}
