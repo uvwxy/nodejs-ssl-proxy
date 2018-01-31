@@ -18,7 +18,7 @@ https:
   links:
     - <SERVICE>:hosttobeproxied
   volumes:
-    - ./secrets:/opt/node-js-ssl-proxy/secrets/
+    - ./secrets:/opt/nodejs-ssl-proxy/secrets/
 ```
 
 Make sure your `key.pem` and `cert.pem` files reside in `secrets/`. If you don't have any keys you can run the following to create them.
